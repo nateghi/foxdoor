@@ -1,0 +1,56 @@
+
+<html>
+    <head>
+		<title>Your page</title>
+        <meta charset="UTF-8" />
+        <script src="https://cdn.worldpay.com/v1/worldpay.js"></script>
+    </head>
+    <body>
+        <form action="/complete" id="payment-form" method="post">
+            <span id="payment-errors"></span>
+			<p id="token-p"></p>
+            <div class="form-row">
+                <label>
+                    <span>Name on Card</span> <input id="NameOnCard" data-worldpay="name" name="name" type="text" />
+                </label>
+            </div>
+			
+            <div class="form-row">
+                <label>
+                    <span>Card Number</span> <input id="CardNumber" data-worldpay="number" size="20" type="text"  />
+                </label>
+            </div>
+			
+            <div class="form-row">
+                <label>
+                    <span>CVC</span> <input id="CVC" data-worldpay="cvc" size="4" type="text"/>
+                </label>
+            </div>
+			
+            <div class="form-row">
+                <label>
+                    <span>Expiration (MM/YYYY)</span> <input id="EXPMM" data-worldpay="exp-month" size="2" type="text" />
+                </label> <span> / </span> <input id="EXPYY" data-worldpay="exp-year" size="4" type="text" />
+            </div>
+			
+            <div><input type="submit" value="Place Order" id="btnPlaceOrder"/></div>
+        </form>
+        
+        <script type="text/javascript">
+            Worldpay.setClientKey("T_C_fb25976d-b891-4667-a8ba-6df2ba9611b4");
+            Worldpay.reusable = true;
+			
+            var form = document.getElementById('payment-form');
+            Worldpay.useForm(form, function(status, response) {
+							 if (response.error) {
+							 Worldpay.handleError(form, document.getElementById('payment-errors'), response.error);
+							 } else {
+							 var token = response.token;
+							 document.getElementById('token-p').innerHTML = "token: " + token;
+							 Worldpay.formBuilder(form, 'input', 'hidden', 'token', token);
+							 form.submit()
+							 }
+							 });
+			</script>
+    </body>
+</html>

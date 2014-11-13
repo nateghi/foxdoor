@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D55872171A247F00F1FC17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D55871171A247F00F1FC17 /* UIKit.framework */; };
+		78D55874171A247F00F1FC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D55873171A247F00F1FC17 /* Foundation.framework */; };
+		78D55876171A247F00F1FC17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D55875171A247F00F1FC17 /* CoreGraphics.framework */; };
+		78D55878171A247F00F1FC17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D55877171A247F00F1FC17 /* CoreData.framework */; };
+		78D5587E171A247F00F1FC17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D5587C171A247F00F1FC17 /* InfoPlist.strings */; };
+		78D55880171A247F00F1FC17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5587F171A247F00F1FC17 /* main.m */; };
+		78D55884171A247F00F1FC17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D55883171A247F00F1FC17 /* AppDelegate.m */; };
+		78D55890171A247F00F1FC17 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D5588E171A247F00F1FC17 /* MainStoryboard_iPad.storyboard */; };
+		78D55893171A247F00F1FC17 /* AirCash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78D55891171A247F00F1FC17 /* AirCash.xcdatamodeld */; };
+		78D55896171A247F00F1FC17 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D55895171A247F00F1FC17 /* MasterViewController.m */; };
+		78D55899171A247F00F1FC17 /* PaymentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D55898171A247F00F1FC17 /* PaymentDetailViewController.m */; };
+		78D558A1171A247F00F1FC17 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D558A0171A247F00F1FC17 /* SenTestingKit.framework */; };
+		78D558A2171A247F00F1FC17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D55871171A247F00F1FC17 /* UIKit.framework */; };
+		78D558A3171A247F00F1FC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D55873171A247F00F1FC17 /* Foundation.framework */; };
+		78D558A4171A247F00F1FC17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D55877171A247F00F1FC17 /* CoreData.framework */; };
+		78D558AC171A247F00F1FC17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D558AA171A247F00F1FC17 /* InfoPlist.strings */; };
+		78D558AF171A248000F1FC17 /* AirCashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D558AE171A248000F1FC17 /* AirCashTests.m */; };
+		78D558BD171A26B700F1FC17 /* CardManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D558BC171A26B700F1FC17 /* CardManageViewController.m */; };
+		78D558C5171A274900F1FC17 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D558C4171A274900F1FC17 /* Payment.m */; };
+		78D558C7171A2B0100F1FC17 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D558C6171A2B0100F1FC17 /* MainStoryboard_iPhone.storyboard */; };
+		78D558D0171A35E500F1FC17 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D558CF171A35E500F1FC17 /* Card.m */; };
+		78D558D3171A363900F1FC17 /* CardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D558D2171A363900F1FC17 /* CardDetailsViewController.m */; };
+		78D558D5171A381000F1FC17 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D558D4171A381000F1FC17 /* MobileCoreServices.framework */; };
+		78D558D7171A383F00F1FC17 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D558D6171A383F00F1FC17 /* SystemConfiguration.framework */; };
+		78D558D9171A38DE00F1FC17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D558D8171A38DE00F1FC17 /* QuartzCore.framework */; };
+		F400E2F91928F4B8001FB992 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F400E2F81928F4B8001FB992 /* Images.xcassets */; };
+		F4061E95197AB43A004508AE /* Validations.m in Sources */ = {isa = PBXBuildFile; fileRef = F4061E94197AB43A004508AE /* Validations.m */; };
+		F40866D8197A4268005AE142 /* Next.png in Resources */ = {isa = PBXBuildFile; fileRef = F40866D7197A4268005AE142 /* Next.png */; };
+		F465CB051987D9BA00B6D968 /* AddCard2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F465CB041987D9BA00B6D968 /* AddCard2ViewController.m */; };
+		F4750DF319920B3400118C04 /* SignUp5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4750DF219920B3400118C04 /* SignUp5ViewController.m */; };
+		F4C04E611971A4C20087644A /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C04E601971A4C20087644A /* LoginManager.m */; };
+		F4C04E651971D1120087644A /* SignUpMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C04E641971D1120087644A /* SignUpMasterViewController.m */; };
+		F4C04E681971D12E0087644A /* SignUp1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C04E671971D12E0087644A /* SignUp1ViewController.m */; };
+		F4C04E6B1971D1460087644A /* SignUp2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C04E6A1971D1460087644A /* SignUp2ViewController.m */; };
+		F4C04E6E1971D1560087644A /* SignUp3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C04E6D1971D1560087644A /* SignUp3ViewController.m */; };
+		F4C04E711971D16D0087644A /* SignUp4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C04E701971D16D0087644A /* SignUp4ViewController.m */; };
+		F4C04E741971D2730087644A /* SignUpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C04E731971D2730087644A /* SignUpManager.m */; };
+		F4C1ADAB198242E90065FBCB /* html.html in Resources */ = {isa = PBXBuildFile; fileRef = F4C1ADAA198242E90065FBCB /* html.html */; };
+		F4CBFE14196DAFC900431BC8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CBFE13196DAFC900431BC8 /* RootViewController.m */; };
+		F4CF15EA19823C3900BA86D4 /* CardRegisteration.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF15E919823C3900BA86D4 /* CardRegisteration.m */; };
+		F4D57AA1195466AC00F66540 /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D57AA0195466AC00F66540 /* AddCardViewController.m */; };
+		F4F47E50196F10A900910396 /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F47E4F196F10A900910396 /* SuperViewController.m */; };
+		FA003C5F1827232B008BAD48 /* Pay-Now1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C5E1827232B008BAD48 /* Pay-Now1.png */; };
+		FA003C6118272349008BAD48 /* Pay-Now2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C6018272349008BAD48 /* Pay-Now2.png */; };
+		FA003C6318272368008BAD48 /* Continue3.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C6218272368008BAD48 /* Continue3.png */; };
+		FA003C651827238B008BAD48 /* Change2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C641827238B008BAD48 /* Change2.png */; };
+		FA003C67182723B4008BAD48 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C66182723B4008BAD48 /* Add.png */; };
+		FA003C69182723DC008BAD48 /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C68182723DC008BAD48 /* Cancel.png */; };
+		FA003C6B182724AB008BAD48 /* Change1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C6A182724AB008BAD48 /* Change1.png */; };
+		FA003C6D182724E4008BAD48 /* Cards.png in Resources */ = {isa = PBXBuildFile; fileRef = FA003C6C182724E4008BAD48 /* Cards.png */; };
+		FA0C9A971829934300E6863E /* Prev.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0C9A961829934300E6863E /* Prev.png */; };
+		FA0C9A991829934A00E6863E /* Done.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0C9A981829934A00E6863E /* Done.png */; };
+		FA13B5FB1804A19F00858DA5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA13B5FA1804A19F00858DA5 /* Accelerate.framework */; };
+		FA17728E1800C123006F35B8 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17728D1800C123006F35B8 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA1772901800C1BC006F35B8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA17728F1800C1BC006F35B8 /* Security.framework */; };
+		FA1772931800DBE2006F35B8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1772921800DBE2006F35B8 /* NSData+Base64.m */; };
+		FA19AF63187B45CD00D5D24A /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FA19AF62187B45CD00D5D24A /* KxMenu.m */; };
+		FA1C382017FDF9D00069B860 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1C381F17FDF9D00069B860 /* SignUpViewController.m */; };
+		FA1C382417FDFB160069B860 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1C382317FDFB160069B860 /* User.m */; };
+		FA1D6DD41875892000DE00D2 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1D6DD31875892000DE00D2 /* LogInViewController.m */; };
+		FA2EA92A182AA5D800FF55B0 /* Card-Detail-Back.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA922182AA5D800FF55B0 /* Card-Detail-Back.png */; };
+		FA2EA92B182AA5D800FF55B0 /* Close-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA923182AA5D800FF55B0 /* Close-Button.png */; };
+		FA2EA92C182AA5D800FF55B0 /* Radio-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA924182AA5D800FF55B0 /* Radio-Button.png */; };
+		FA2EA92D182AA5D800FF55B0 /* Text-Field-120.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA925182AA5D800FF55B0 /* Text-Field-120.png */; };
+		FA2EA92E182AA5D800FF55B0 /* Text-Field-45.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA926182AA5D800FF55B0 /* Text-Field-45.png */; };
+		FA2EA92F182AA5D800FF55B0 /* Text-Field-60.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA927182AA5D800FF55B0 /* Text-Field-60.png */; };
+		FA2EA930182AA5D800FF55B0 /* Text-Field-85.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA928182AA5D800FF55B0 /* Text-Field-85.png */; };
+		FA2EA931182AA5D800FF55B0 /* Wide-Request-Page.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2EA929182AA5D800FF55B0 /* Wide-Request-Page.png */; };
+		FA33793B1887E6C5005533C7 /* Wide-Request-Page1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA33793A1887E6C5005533C7 /* Wide-Request-Page1.png */; };
+		FA33794B18880ABD005533C7 /* Wide-Request-Page1Transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = FA33794A18880ABD005533C7 /* Wide-Request-Page1Transparent.png */; };
+		FA33794D18880AC8005533C7 /* Wide-Request-Page2Transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = FA33794C18880AC8005533C7 /* Wide-Request-Page2Transparent.png */; };
+		FA33795118881007005533C7 /* Wide-Request-Page1Trancparency9.png in Resources */ = {isa = PBXBuildFile; fileRef = FA33795018881007005533C7 /* Wide-Request-Page1Trancparency9.png */; };
+		FA35CC27187EB68D00F9A5CA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35CC25187EB68D00F9A5CA /* SettingsViewController.m */; };
+		FA35CC28187EB68D00F9A5CA /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA35CC26187EB68D00F9A5CA /* SettingsViewController.xib */; };
+		FA35CC32187EB6A600F9A5CA /* KKKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35CC2A187EB6A600F9A5CA /* KKKeychain.m */; };
+		FA35CC33187EB6A600F9A5CA /* KKPasscodeLock.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA35CC2B187EB6A600F9A5CA /* KKPasscodeLock.bundle */; };
+		FA35CC34187EB6A600F9A5CA /* KKPasscodeLock.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35CC2D187EB6A600F9A5CA /* KKPasscodeLock.m */; };
+		FA35CC35187EB6A600F9A5CA /* KKPasscodeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35CC2F187EB6A600F9A5CA /* KKPasscodeSettingsViewController.m */; };
+		FA35CC36187EB6A600F9A5CA /* KKPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA35CC31187EB6A600F9A5CA /* KKPasscodeViewController.m */; };
+		FA4388D6183FA67A00FB40C5 /* Icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4388D5183FA67A00FB40C5 /* Icon4.png */; };
+		FA4388E2183FC12F00FB40C5 /* Button300.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4388E1183FC12F00FB40C5 /* Button300.png */; };
+		FA44C0E1182E34D300E88285 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA44C0E0182E34D300E88285 /* AudioToolbox.framework */; };
+		FA48304618BF8FA400A6E611 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA48304518BF8FA400A6E611 /* AVFoundation.framework */; };
+		FA503FBC185B1F4200DCBC22 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA503FBB185B1F4200DCBC22 /* Icon.png */; };
+		FA503FBE185B1FF100DCBC22 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA503FBD185B1FF100DCBC22 /* Icon@2x.png */; };
+		FA503FC0185B66FD00DCBC22 /* Wide-Request-Page.png in Resources */ = {isa = PBXBuildFile; fileRef = FA503FBF185B66FD00DCBC22 /* Wide-Request-Page.png */; };
+		FA53EC1518304604001AC1BB /* Home5.png in Resources */ = {isa = PBXBuildFile; fileRef = FA53EC1418304604001AC1BB /* Home5.png */; };
+		FA5935371842679200AD84AD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5935361842679200AD84AD /* Default@2x.png */; };
+		FA5935861842767700AD84AD /* DeleteCard.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5935851842767700AD84AD /* DeleteCard.png */; };
+		FA788AB518C12E3000D201F7 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = FA788AB418C12E3000D201F7 /* NIDropDown.m */; };
+		FA788AB818C12E4100D201F7 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = FA788AB618C12E4100D201F7 /* apple.png */; };
+		FA788AB918C12E4100D201F7 /* apple2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA788AB718C12E4100D201F7 /* apple2.png */; };
+		FA829A0D1865250E009F72CE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = FA829A0C1865250E009F72CE /* Constants.m */; };
+		FA85F761182554BC0003C29D /* MasterCard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA85F760182554BC0003C29D /* MasterCard.jpeg */; };
+		FA85F763182554CE0003C29D /* JCBCard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA85F762182554CE0003C29D /* JCBCard.jpeg */; };
+		FA85F76918258A870003C29D /* Continue2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85F76818258A870003C29D /* Continue2.png */; };
+		FA85F76B1825A73F0003C29D /* Continue1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85F76A1825A73F0003C29D /* Continue1.png */; };
+		FA85F7731825F4890003C29D /* Pay-Now4.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85F7721825F4890003C29D /* Pay-Now4.png */; };
+		FA97B0501868530D003F3D47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA97B04F1868530D003F3D47 /* Default.png */; };
+		FAA89F7D1820009900B0C85A /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA89F7C1820009900B0C85A /* CardsViewController.m */; };
+		FACB588B18C0AFA800E85D5D /* SGSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACB588A18C0AFA800E85D5D /* SGSelectViewController.m */; };
+		FACB589A18C0AFFE00E85D5D /* balloon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB588C18C0AFFE00E85D5D /* balloon@2x.png */; };
+		FACB589B18C0AFFE00E85D5D /* choseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB588D18C0AFFE00E85D5D /* choseBtn@2x.png */; };
+		FACB589C18C0AFFE00E85D5D /* full.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB588E18C0AFFE00E85D5D /* full.png */; };
+		FACB589D18C0AFFE00E85D5D /* ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB588F18C0AFFE00E85D5D /* ok@2x.png */; };
+		FACB589E18C0AFFE00E85D5D /* plan_eat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589018C0AFFE00E85D5D /* plan_eat@2x.png */; };
+		FACB589F18C0AFFE00E85D5D /* plan_nature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589118C0AFFE00E85D5D /* plan_nature@2x.png */; };
+		FACB58A018C0AFFE00E85D5D /* plan_plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589218C0AFFE00E85D5D /* plan_plane@2x.png */; };
+		FACB58A118C0AFFE00E85D5D /* plan_rest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589318C0AFFE00E85D5D /* plan_rest@2x.png */; };
+		FACB58A218C0AFFE00E85D5D /* plan_shopping@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589418C0AFFE00E85D5D /* plan_shopping@2x.png */; };
+		FACB58A318C0AFFE00E85D5D /* plan_sports@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589518C0AFFE00E85D5D /* plan_sports@2x.png */; };
+		FACB58A418C0AFFE00E85D5D /* plan_structure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589618C0AFFE00E85D5D /* plan_structure@2x.png */; };
+		FACB58A518C0AFFE00E85D5D /* plan_train@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589718C0AFFE00E85D5D /* plan_train@2x.png */; };
+		FACB58A618C0AFFE00E85D5D /* plan_walk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589818C0AFFE00E85D5D /* plan_walk@2x.png */; };
+		FACB58A718C0AFFE00E85D5D /* ss.png in Resources */ = {isa = PBXBuildFile; fileRef = FACB589918C0AFFE00E85D5D /* ss.png */; };
+		FAD9AADC181C8457003159E6 /* RNGridMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD9AADB181C8457003159E6 /* RNGridMenu.m */; };
+		FADC1770181B1D2F00A24E47 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC176F181B1D2F00A24E47 /* Reachability.m */; };
+		FAE0B0CB181DCC030079D677 /* Button2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE0B0BD181DCC030079D677 /* Button2.png */; };
+		FAE94B01182459BB00AE297C /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE94B00182459BB00AE297C /* RadioButton.m */; };
+		FAE94B04182459C700AE297C /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE94B02182459C700AE297C /* RadioButton-Selected.png */; };
+		FAE94B05182459C700AE297C /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE94B03182459C700AE297C /* RadioButton-Unselected.png */; };
+		FAE94B071824689100AE297C /* AXCard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAE94B061824689100AE297C /* AXCard.jpeg */; };
+		FAE94B091824691700AE297C /* VisaCard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAE94B081824691700AE297C /* VisaCard.jpeg */; };
+		FAF163B618393C95002E0058 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF163B518393C95002E0058 /* Default-568h@2x.png */; };
+		FAF163BE18395D6F002E0058 /* American-Express4.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF163BD18395D6F002E0058 /* American-Express4.png */; };
+		FAF163C018395DC4002E0058 /* Visa4.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF163BF18395DC4002E0058 /* Visa4.png */; };
+		FAF163C218395DF9002E0058 /* MasterCard33.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF163C118395DF9002E0058 /* MasterCard33.png */; };
+		FAF6A94A1858948200EA9998 /* Card-Detail-Back5.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF6A9491858948200EA9998 /* Card-Detail-Back5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78D558A5171A247F00F1FC17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D55866171A247F00F1FC17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D5586D171A247F00F1FC17;
+			remoteInfo = AirCash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78D5586E171A247F00F1FC17 /* FoxDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D55871171A247F00F1FC17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78D55873171A247F00F1FC17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78D55875171A247F00F1FC17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78D55877171A247F00F1FC17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		78D5587B171A247F00F1FC17 /* FoxDoor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoxDoor-Info.plist"; sourceTree = "<group>"; };
+		78D5587D171A247F00F1FC17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78D5587F171A247F00F1FC17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78D55881171A247F00F1FC17 /* FoxDoor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoxDoor-Prefix.pch"; sourceTree = "<group>"; };
+		78D55882171A247F00F1FC17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78D55883171A247F00F1FC17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78D5588F171A247F00F1FC17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		78D55892171A247F00F1FC17 /* AirCash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirCash.xcdatamodel; sourceTree = "<group>"; };
+		78D55894171A247F00F1FC17 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = AirCash/MasterViewController.h; sourceTree = "<group>"; };
+		78D55895171A247F00F1FC17 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = AirCash/MasterViewController.m; sourceTree = "<group>"; };
+		78D55897171A247F00F1FC17 /* PaymentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PaymentDetailViewController.h; path = AirCash/PaymentDetailViewController.h; sourceTree = "<group>"; };
+		78D55898171A247F00F1FC17 /* PaymentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PaymentDetailViewController.m; path = AirCash/PaymentDetailViewController.m; sourceTree = "<group>"; };
+		78D5589F171A247F00F1FC17 /* FoxDoorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxDoorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D558A0171A247F00F1FC17 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78D558A9171A247F00F1FC17 /* FoxDoorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoxDoorTests-Info.plist"; sourceTree = "<group>"; };
+		78D558AB171A247F00F1FC17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78D558AD171A248000F1FC17 /* AirCashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirCashTests.h; sourceTree = "<group>"; };
+		78D558AE171A248000F1FC17 /* AirCashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirCashTests.m; sourceTree = "<group>"; };
+		78D558BB171A26B700F1FC17 /* CardManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardManageViewController.h; sourceTree = "<group>"; };
+		78D558BC171A26B700F1FC17 /* CardManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardManageViewController.m; sourceTree = "<group>"; };
+		78D558C3171A274900F1FC17 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		78D558C4171A274900F1FC17 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		78D558C6171A2B0100F1FC17 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		78D558CE171A35E500F1FC17 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		78D558CF171A35E500F1FC17 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		78D558D1171A363800F1FC17 /* CardDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetailsViewController.h; sourceTree = "<group>"; };
+		78D558D2171A363900F1FC17 /* CardDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDetailsViewController.m; sourceTree = "<group>"; };
+		78D558D4171A381000F1FC17 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		78D558D6171A383F00F1FC17 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		78D558D8171A38DE00F1FC17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE7EC9B367BB404DA15D5237 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F400E2F81928F4B8001FB992 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4061E93197AB43A004508AE /* Validations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Validations.h; path = AirCash/Model/Validations.h; sourceTree = "<group>"; };
+		F4061E94197AB43A004508AE /* Validations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Validations.m; path = AirCash/Model/Validations.m; sourceTree = "<group>"; };
+		F40866D7197A4268005AE142 /* Next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Next.png; sourceTree = "<group>"; };
+		F465CB031987D9BA00B6D968 /* AddCard2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddCard2ViewController.h; path = AirCash/ViewControllers/AddCard2ViewController.h; sourceTree = "<group>"; };
+		F465CB041987D9BA00B6D968 /* AddCard2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddCard2ViewController.m; path = AirCash/ViewControllers/AddCard2ViewController.m; sourceTree = "<group>"; };
+		F4750DF119920B3400118C04 /* SignUp5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUp5ViewController.h; path = AirCash/ViewControllers/SignUp5ViewController.h; sourceTree = "<group>"; };
+		F4750DF219920B3400118C04 /* SignUp5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp5ViewController.m; path = AirCash/ViewControllers/SignUp5ViewController.m; sourceTree = "<group>"; };
+		F4C04E5F1971A4C20087644A /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginManager.h; path = AirCash/Model/LoginManager.h; sourceTree = "<group>"; };
+		F4C04E601971A4C20087644A /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginManager.m; path = AirCash/Model/LoginManager.m; sourceTree = "<group>"; };
+		F4C04E631971D1120087644A /* SignUpMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpMasterViewController.h; path = AirCash/ViewControllers/SignUpMasterViewController.h; sourceTree = "<group>"; };
+		F4C04E641971D1120087644A /* SignUpMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpMasterViewController.m; path = AirCash/ViewControllers/SignUpMasterViewController.m; sourceTree = "<group>"; };
+		F4C04E661971D12E0087644A /* SignUp1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUp1ViewController.h; path = AirCash/ViewControllers/SignUp1ViewController.h; sourceTree = "<group>"; };
+		F4C04E671971D12E0087644A /* SignUp1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp1ViewController.m; path = AirCash/ViewControllers/SignUp1ViewController.m; sourceTree = "<group>"; };
+		F4C04E691971D1460087644A /* SignUp2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUp2ViewController.h; path = AirCash/ViewControllers/SignUp2ViewController.h; sourceTree = "<group>"; };
+		F4C04E6A1971D1460087644A /* SignUp2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp2ViewController.m; path = AirCash/ViewControllers/SignUp2ViewController.m; sourceTree = "<group>"; };
+		F4C04E6C1971D1560087644A /* SignUp3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUp3ViewController.h; path = AirCash/ViewControllers/SignUp3ViewController.h; sourceTree = "<group>"; };
+		F4C04E6D1971D1560087644A /* SignUp3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp3ViewController.m; path = AirCash/ViewControllers/SignUp3ViewController.m; sourceTree = "<group>"; };
+		F4C04E6F1971D16D0087644A /* SignUp4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUp4ViewController.h; path = AirCash/ViewControllers/SignUp4ViewController.h; sourceTree = "<group>"; };
+		F4C04E701971D16D0087644A /* SignUp4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUp4ViewController.m; path = AirCash/ViewControllers/SignUp4ViewController.m; sourceTree = "<group>"; };
+		F4C04E721971D2730087644A /* SignUpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpManager.h; path = AirCash/Model/SignUpManager.h; sourceTree = "<group>"; };
+		F4C04E731971D2730087644A /* SignUpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpManager.m; path = AirCash/Model/SignUpManager.m; sourceTree = "<group>"; };
+		F4C1ADAA198242E90065FBCB /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
+		F4CBFE12196DAFC900431BC8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = AirCash/ViewControllers/RootViewController.h; sourceTree = "<group>"; };
+		F4CBFE13196DAFC900431BC8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = AirCash/ViewControllers/RootViewController.m; sourceTree = "<group>"; };
+		F4CF15E819823C3900BA86D4 /* CardRegisteration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardRegisteration.h; path = AirCash/Model/CardRegisteration.h; sourceTree = "<group>"; };
+		F4CF15E919823C3900BA86D4 /* CardRegisteration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardRegisteration.m; path = AirCash/Model/CardRegisteration.m; sourceTree = "<group>"; };
+		F4D57A9F195466AC00F66540 /* AddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		F4D57AA0195466AC00F66540 /* AddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+		F4F47E4E196F10A900910396 /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperViewController.h; path = AirCash/ViewControllers/SuperViewController.h; sourceTree = "<group>"; };
+		F4F47E4F196F10A900910396 /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperViewController.m; path = AirCash/ViewControllers/SuperViewController.m; sourceTree = "<group>"; };
+		FA003C5E1827232B008BAD48 /* Pay-Now1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pay-Now1.png"; sourceTree = "<group>"; };
+		FA003C6018272349008BAD48 /* Pay-Now2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pay-Now2.png"; sourceTree = "<group>"; };
+		FA003C6218272368008BAD48 /* Continue3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Continue3.png; sourceTree = "<group>"; };
+		FA003C641827238B008BAD48 /* Change2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Change2.png; sourceTree = "<group>"; };
+		FA003C66182723B4008BAD48 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		FA003C68182723DC008BAD48 /* Cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cancel.png; sourceTree = "<group>"; };
+		FA003C6A182724AB008BAD48 /* Change1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Change1.png; sourceTree = "<group>"; };
+		FA003C6C182724E4008BAD48 /* Cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cards.png; sourceTree = "<group>"; };
+		FA0C9A961829934300E6863E /* Prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prev.png; sourceTree = "<group>"; };
+		FA0C9A981829934A00E6863E /* Done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done.png; sourceTree = "<group>"; };
+		FA13B5FA1804A19F00858DA5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FA17728C1800C123006F35B8 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		FA17728D1800C123006F35B8 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		FA17728F1800C1BC006F35B8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA1772911800DBE2006F35B8 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FA1772921800DBE2006F35B8 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FA19AF61187B45CD00D5D24A /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		FA19AF62187B45CD00D5D24A /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		FA1C381F17FDF9D00069B860 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		FA1C382117FDFA0D0069B860 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		FA1C382217FDFB160069B860 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FA1C382317FDFB160069B860 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FA1D6DD21875892000DE00D2 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		FA1D6DD31875892000DE00D2 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		FA2EA922182AA5D800FF55B0 /* Card-Detail-Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card-Detail-Back.png"; sourceTree = "<group>"; };
+		FA2EA923182AA5D800FF55B0 /* Close-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close-Button.png"; sourceTree = "<group>"; };
+		FA2EA924182AA5D800FF55B0 /* Radio-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Radio-Button.png"; sourceTree = "<group>"; };
+		FA2EA925182AA5D800FF55B0 /* Text-Field-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Text-Field-120.png"; sourceTree = "<group>"; };
+		FA2EA926182AA5D800FF55B0 /* Text-Field-45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Text-Field-45.png"; sourceTree = "<group>"; };
+		FA2EA927182AA5D800FF55B0 /* Text-Field-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Text-Field-60.png"; sourceTree = "<group>"; };
+		FA2EA928182AA5D800FF55B0 /* Text-Field-85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Text-Field-85.png"; sourceTree = "<group>"; };
+		FA2EA929182AA5D800FF55B0 /* Wide-Request-Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wide-Request-Page.png"; sourceTree = "<group>"; };
+		FA33793A1887E6C5005533C7 /* Wide-Request-Page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wide-Request-Page1.png"; sourceTree = "<group>"; };
+		FA33794A18880ABD005533C7 /* Wide-Request-Page1Transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wide-Request-Page1Transparent.png"; sourceTree = "<group>"; };
+		FA33794C18880AC8005533C7 /* Wide-Request-Page2Transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wide-Request-Page2Transparent.png"; sourceTree = "<group>"; };
+		FA33795018881007005533C7 /* Wide-Request-Page1Trancparency9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wide-Request-Page1Trancparency9.png"; sourceTree = "<group>"; };
+		FA35CC24187EB68D00F9A5CA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FA35CC25187EB68D00F9A5CA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		FA35CC26187EB68D00F9A5CA /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		FA35CC29187EB6A600F9A5CA /* KKKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKKeychain.h; sourceTree = "<group>"; };
+		FA35CC2A187EB6A600F9A5CA /* KKKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKKeychain.m; sourceTree = "<group>"; };
+		FA35CC2B187EB6A600F9A5CA /* KKPasscodeLock.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KKPasscodeLock.bundle; sourceTree = "<group>"; };
+		FA35CC2C187EB6A600F9A5CA /* KKPasscodeLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPasscodeLock.h; sourceTree = "<group>"; };
+		FA35CC2D187EB6A600F9A5CA /* KKPasscodeLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPasscodeLock.m; sourceTree = "<group>"; };
+		FA35CC2E187EB6A600F9A5CA /* KKPasscodeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPasscodeSettingsViewController.h; sourceTree = "<group>"; };
+		FA35CC2F187EB6A600F9A5CA /* KKPasscodeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPasscodeSettingsViewController.m; sourceTree = "<group>"; };
+		FA35CC30187EB6A600F9A5CA /* KKPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPasscodeViewController.h; sourceTree = "<group>"; };
+		FA35CC31187EB6A600F9A5CA /* KKPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPasscodeViewController.m; sourceTree = "<group>"; };
+		FA4388D5183FA67A00FB40C5 /* Icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon4.png; path = ../Icon4.png; sourceTree = "<group>"; };
+		FA4388E1183FC12F00FB40C5 /* Button300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button300.png; sourceTree = "<group>"; };
+		FA44C0E0182E34D300E88285 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA48304518BF8FA400A6E611 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA503FBB185B1F4200DCBC22 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		FA503FBD185B1FF100DCBC22 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		FA503FBF185B66FD00DCBC22 /* Wide-Request-Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wide-Request-Page.png"; sourceTree = "<group>"; };
+		FA53EC1418304604001AC1BB /* Home5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home5.png; sourceTree = "<group>"; };
+		FA5935361842679200AD84AD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		FA5935851842767700AD84AD /* DeleteCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteCard.png; sourceTree = "<group>"; };
+		FA788AB318C12E3000D201F7 /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDropDown.h; sourceTree = "<group>"; };
+		FA788AB418C12E3000D201F7 /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDropDown.m; sourceTree = "<group>"; };
+		FA788AB618C12E4100D201F7 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		FA788AB718C12E4100D201F7 /* apple2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple2.png; sourceTree = "<group>"; };
+		FA829A0B1865250E009F72CE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FA829A0C1865250E009F72CE /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		FA85F760182554BC0003C29D /* MasterCard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MasterCard.jpeg; sourceTree = "<group>"; };
+		FA85F762182554CE0003C29D /* JCBCard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JCBCard.jpeg; sourceTree = "<group>"; };
+		FA85F76818258A870003C29D /* Continue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Continue2.png; sourceTree = "<group>"; };
+		FA85F76A1825A73F0003C29D /* Continue1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Continue1.png; sourceTree = "<group>"; };
+		FA85F7721825F4890003C29D /* Pay-Now4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pay-Now4.png"; sourceTree = "<group>"; };
+		FA97B04F1868530D003F3D47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		FAA89F7B1820009900B0C85A /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		FAA89F7C1820009900B0C85A /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		FACB588918C0AFA800E85D5D /* SGSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSelectViewController.h; sourceTree = "<group>"; };
+		FACB588A18C0AFA800E85D5D /* SGSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSelectViewController.m; sourceTree = "<group>"; };
+		FACB588C18C0AFFE00E85D5D /* balloon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon@2x.png"; sourceTree = "<group>"; };
+		FACB588D18C0AFFE00E85D5D /* choseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choseBtn@2x.png"; sourceTree = "<group>"; };
+		FACB588E18C0AFFE00E85D5D /* full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full.png; sourceTree = "<group>"; };
+		FACB588F18C0AFFE00E85D5D /* ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok@2x.png"; sourceTree = "<group>"; };
+		FACB589018C0AFFE00E85D5D /* plan_eat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_eat@2x.png"; sourceTree = "<group>"; };
+		FACB589118C0AFFE00E85D5D /* plan_nature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_nature@2x.png"; sourceTree = "<group>"; };
+		FACB589218C0AFFE00E85D5D /* plan_plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_plane@2x.png"; sourceTree = "<group>"; };
+		FACB589318C0AFFE00E85D5D /* plan_rest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_rest@2x.png"; sourceTree = "<group>"; };
+		FACB589418C0AFFE00E85D5D /* plan_shopping@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_shopping@2x.png"; sourceTree = "<group>"; };
+		FACB589518C0AFFE00E85D5D /* plan_sports@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_sports@2x.png"; sourceTree = "<group>"; };
+		FACB589618C0AFFE00E85D5D /* plan_structure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_structure@2x.png"; sourceTree = "<group>"; };
+		FACB589718C0AFFE00E85D5D /* plan_train@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_train@2x.png"; sourceTree = "<group>"; };
+		FACB589818C0AFFE00E85D5D /* plan_walk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plan_walk@2x.png"; sourceTree = "<group>"; };
+		FACB589918C0AFFE00E85D5D /* ss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss.png; sourceTree = "<group>"; };
+		FAD9AADA181C8457003159E6 /* RNGridMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGridMenu.h; sourceTree = "<group>"; };
+		FAD9AADB181C8457003159E6 /* RNGridMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGridMenu.m; sourceTree = "<group>"; };
+		FADC176E181B1D2F00A24E47 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FADC176F181B1D2F00A24E47 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FAE0B0BD181DCC030079D677 /* Button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button2.png; sourceTree = "<group>"; };
+		FAE94AFF182459BB00AE297C /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		FAE94B00182459BB00AE297C /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		FAE94B02182459C700AE297C /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Selected.png"; sourceTree = "<group>"; };
+		FAE94B03182459C700AE297C /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Unselected.png"; sourceTree = "<group>"; };
+		FAE94B061824689100AE297C /* AXCard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AXCard.jpeg; sourceTree = "<group>"; };
+		FAE94B081824691700AE297C /* VisaCard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VisaCard.jpeg; sourceTree = "<group>"; };
+		FAF163B518393C95002E0058 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAF163BD18395D6F002E0058 /* American-Express4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "American-Express4.png"; sourceTree = "<group>"; };
+		FAF163BF18395DC4002E0058 /* Visa4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Visa4.png; sourceTree = "<group>"; };
+		FAF163C118395DF9002E0058 /* MasterCard33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterCard33.png; sourceTree = "<group>"; };
+		FAF6A9491858948200EA9998 /* Card-Detail-Back5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card-Detail-Back5.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D5586B171A247F00F1FC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA48304618BF8FA400A6E611 /* AVFoundation.framework in Frameworks */,
+				FA13B5FB1804A19F00858DA5 /* Accelerate.framework in Frameworks */,
+				FA44C0E1182E34D300E88285 /* AudioToolbox.framework in Frameworks */,
+				78D558D7171A383F00F1FC17 /* SystemConfiguration.framework in Frameworks */,
+				78D55876171A247F00F1FC17 /* CoreGraphics.framework in Frameworks */,
+				FA1772901800C1BC006F35B8 /* Security.framework in Frameworks */,
+				78D558D9171A38DE00F1FC17 /* QuartzCore.framework in Frameworks */,
+				78D558D5171A381000F1FC17 /* MobileCoreServices.framework in Frameworks */,
+				78D55872171A247F00F1FC17 /* UIKit.framework in Frameworks */,
+				78D55874171A247F00F1FC17 /* Foundation.framework in Frameworks */,
+				78D55878171A247F00F1FC17 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D5589B171A247F00F1FC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D558A1171A247F00F1FC17 /* SenTestingKit.framework in Frameworks */,
+				78D558A2171A247F00F1FC17 /* UIKit.framework in Frameworks */,
+				78D558A3171A247F00F1FC17 /* Foundation.framework in Frameworks */,
+				78D558A4171A247F00F1FC17 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78D55865171A247F00F1FC17 = {
+			isa = PBXGroup;
+			children = (
+				F400E2F81928F4B8001FB992 /* Images.xcassets */,
+				FA44C0CC182E33AC00E88285 /* KeyPadLock */,
+				FAE0B0B3181DCC030079D677 /* PNG */,
+				78D558BE171A26F000F1FC17 /* Settings */,
+				78D558C2171A273200F1FC17 /* Models */,
+				FA13B5E718049F4700858DA5 /* Menu */,
+				78D558B8171A249900F1FC17 /* Controllers */,
+				78D55879171A247F00F1FC17 /* FoxDoor */,
+				78D558A7171A247F00F1FC17 /* AirCashTests */,
+				78D55870171A247F00F1FC17 /* Frameworks */,
+				78D5586F171A247F00F1FC17 /* Products */,
+				BE7EC9B367BB404DA15D5237 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		78D5586F171A247F00F1FC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D5586E171A247F00F1FC17 /* FoxDoor.app */,
+				78D5589F171A247F00F1FC17 /* FoxDoorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D55870171A247F00F1FC17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA48304518BF8FA400A6E611 /* AVFoundation.framework */,
+				FA44C0E0182E34D300E88285 /* AudioToolbox.framework */,
+				78D558D8171A38DE00F1FC17 /* QuartzCore.framework */,
+				78D558D6171A383F00F1FC17 /* SystemConfiguration.framework */,
+				78D558D4171A381000F1FC17 /* MobileCoreServices.framework */,
+				FA13B5FA1804A19F00858DA5 /* Accelerate.framework */,
+				FA17728F1800C1BC006F35B8 /* Security.framework */,
+				78D55871171A247F00F1FC17 /* UIKit.framework */,
+				78D55873171A247F00F1FC17 /* Foundation.framework */,
+				78D55875171A247F00F1FC17 /* CoreGraphics.framework */,
+				78D55877171A247F00F1FC17 /* CoreData.framework */,
+				78D558A0171A247F00F1FC17 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78D55879171A247F00F1FC17 /* FoxDoor */ = {
+			isa = PBXGroup;
+			children = (
+				78D55882171A247F00F1FC17 /* AppDelegate.h */,
+				78D55883171A247F00F1FC17 /* AppDelegate.m */,
+				78D558C6171A2B0100F1FC17 /* MainStoryboard_iPhone.storyboard */,
+				78D5588E171A247F00F1FC17 /* MainStoryboard_iPad.storyboard */,
+				78D55891171A247F00F1FC17 /* AirCash.xcdatamodeld */,
+				78D5587A171A247F00F1FC17 /* Supporting Files */,
+				F4C1ADAA198242E90065FBCB /* html.html */,
+			);
+			name = FoxDoor;
+			path = AirCash;
+			sourceTree = "<group>";
+		};
+		78D5587A171A247F00F1FC17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D5587B171A247F00F1FC17 /* FoxDoor-Info.plist */,
+				78D5587C171A247F00F1FC17 /* InfoPlist.strings */,
+				78D5587F171A247F00F1FC17 /* main.m */,
+				78D55881171A247F00F1FC17 /* FoxDoor-Prefix.pch */,
+				FA97B04F1868530D003F3D47 /* Default.png */,
+				FA5935361842679200AD84AD /* Default@2x.png */,
+				FAF163B518393C95002E0058 /* Default-568h@2x.png */,
+				FA4388D5183FA67A00FB40C5 /* Icon4.png */,
+				FA503FBB185B1F4200DCBC22 /* Icon.png */,
+				FA503FBD185B1FF100DCBC22 /* Icon@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78D558A7171A247F00F1FC17 /* AirCashTests */ = {
+			isa = PBXGroup;
+			children = (
+				78D558AD171A248000F1FC17 /* AirCashTests.h */,
+				78D558AE171A248000F1FC17 /* AirCashTests.m */,
+				78D558A8171A247F00F1FC17 /* Supporting Files */,
+			);
+			path = AirCashTests;
+			sourceTree = "<group>";
+		};
+		78D558A8171A247F00F1FC17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D558A9171A247F00F1FC17 /* FoxDoorTests-Info.plist */,
+				78D558AA171A247F00F1FC17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78D558B8171A249900F1FC17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4F47E4D196F108400910396 /* View Controllers */,
+				FA1C382117FDFA0D0069B860 /* SignUpViewController.h */,
+				FA1C381F17FDF9D00069B860 /* SignUpViewController.m */,
+				FA1D6DD21875892000DE00D2 /* LogInViewController.h */,
+				FA1D6DD31875892000DE00D2 /* LogInViewController.m */,
+				78D55894171A247F00F1FC17 /* MasterViewController.h */,
+				78D55895171A247F00F1FC17 /* MasterViewController.m */,
+				78D55897171A247F00F1FC17 /* PaymentDetailViewController.h */,
+				78D55898171A247F00F1FC17 /* PaymentDetailViewController.m */,
+				78D558BB171A26B700F1FC17 /* CardManageViewController.h */,
+				78D558BC171A26B700F1FC17 /* CardManageViewController.m */,
+				78D558D1171A363800F1FC17 /* CardDetailsViewController.h */,
+				78D558D2171A363900F1FC17 /* CardDetailsViewController.m */,
+				FAA89F7B1820009900B0C85A /* CardsViewController.h */,
+				FAA89F7C1820009900B0C85A /* CardsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		78D558BE171A26F000F1FC17 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FA17728C1800C123006F35B8 /* KeychainItemWrapper.h */,
+				FA17728D1800C123006F35B8 /* KeychainItemWrapper.m */,
+				FA35CC24187EB68D00F9A5CA /* SettingsViewController.h */,
+				FA35CC25187EB68D00F9A5CA /* SettingsViewController.m */,
+				FA35CC26187EB68D00F9A5CA /* SettingsViewController.xib */,
+				FA1772911800DBE2006F35B8 /* NSData+Base64.h */,
+				FA1772921800DBE2006F35B8 /* NSData+Base64.m */,
+				FADC176E181B1D2F00A24E47 /* Reachability.h */,
+				FADC176F181B1D2F00A24E47 /* Reachability.m */,
+				FAE94AFF182459BB00AE297C /* RadioButton.h */,
+				FAE94B00182459BB00AE297C /* RadioButton.m */,
+				FA829A0B1865250E009F72CE /* Constants.h */,
+				FA829A0C1865250E009F72CE /* Constants.m */,
+				FA19AF61187B45CD00D5D24A /* KxMenu.h */,
+				FA19AF62187B45CD00D5D24A /* KxMenu.m */,
+				FACB588918C0AFA800E85D5D /* SGSelectViewController.h */,
+				FACB588A18C0AFA800E85D5D /* SGSelectViewController.m */,
+				FA788AB318C12E3000D201F7 /* NIDropDown.h */,
+				FA788AB418C12E3000D201F7 /* NIDropDown.m */,
+				FACB588C18C0AFFE00E85D5D /* balloon@2x.png */,
+				FACB588D18C0AFFE00E85D5D /* choseBtn@2x.png */,
+				FACB588E18C0AFFE00E85D5D /* full.png */,
+				FACB588F18C0AFFE00E85D5D /* ok@2x.png */,
+				FACB589018C0AFFE00E85D5D /* plan_eat@2x.png */,
+				FACB589118C0AFFE00E85D5D /* plan_nature@2x.png */,
+				FACB589218C0AFFE00E85D5D /* plan_plane@2x.png */,
+				FACB589318C0AFFE00E85D5D /* plan_rest@2x.png */,
+				FACB589418C0AFFE00E85D5D /* plan_shopping@2x.png */,
+				FACB589518C0AFFE00E85D5D /* plan_sports@2x.png */,
+				FACB589618C0AFFE00E85D5D /* plan_structure@2x.png */,
+				FACB589718C0AFFE00E85D5D /* plan_train@2x.png */,
+				FACB589818C0AFFE00E85D5D /* plan_walk@2x.png */,
+				FACB589918C0AFFE00E85D5D /* ss.png */,
+				FA788AB618C12E4100D201F7 /* apple.png */,
+				FA788AB718C12E4100D201F7 /* apple2.png */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		78D558C2171A273200F1FC17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C382217FDFB160069B860 /* User.h */,
+				FA1C382317FDFB160069B860 /* User.m */,
+				78D558C3171A274900F1FC17 /* Payment.h */,
+				78D558C4171A274900F1FC17 /* Payment.m */,
+				78D558CE171A35E500F1FC17 /* Card.h */,
+				78D558CF171A35E500F1FC17 /* Card.m */,
+				F4C04E5F1971A4C20087644A /* LoginManager.h */,
+				F4C04E601971A4C20087644A /* LoginManager.m */,
+				F4C04E721971D2730087644A /* SignUpManager.h */,
+				F4C04E731971D2730087644A /* SignUpManager.m */,
+				F4061E93197AB43A004508AE /* Validations.h */,
+				F4061E94197AB43A004508AE /* Validations.m */,
+				F4CF15E819823C3900BA86D4 /* CardRegisteration.h */,
+				F4CF15E919823C3900BA86D4 /* CardRegisteration.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F4F47E4D196F108400910396 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4CBFE12196DAFC900431BC8 /* RootViewController.h */,
+				F4CBFE13196DAFC900431BC8 /* RootViewController.m */,
+				F4F47E4E196F10A900910396 /* SuperViewController.h */,
+				F4F47E4F196F10A900910396 /* SuperViewController.m */,
+				F4C04E631971D1120087644A /* SignUpMasterViewController.h */,
+				F4C04E641971D1120087644A /* SignUpMasterViewController.m */,
+				F4C04E661971D12E0087644A /* SignUp1ViewController.h */,
+				F4C04E671971D12E0087644A /* SignUp1ViewController.m */,
+				F4C04E691971D1460087644A /* SignUp2ViewController.h */,
+				F4C04E6A1971D1460087644A /* SignUp2ViewController.m */,
+				F4C04E6C1971D1560087644A /* SignUp3ViewController.h */,
+				F4C04E6D1971D1560087644A /* SignUp3ViewController.m */,
+				F4C04E6F1971D16D0087644A /* SignUp4ViewController.h */,
+				F4C04E701971D16D0087644A /* SignUp4ViewController.m */,
+				F4750DF119920B3400118C04 /* SignUp5ViewController.h */,
+				F4750DF219920B3400118C04 /* SignUp5ViewController.m */,
+				F4D57A9F195466AC00F66540 /* AddCardViewController.h */,
+				F4D57AA0195466AC00F66540 /* AddCardViewController.m */,
+				F465CB031987D9BA00B6D968 /* AddCard2ViewController.h */,
+				F465CB041987D9BA00B6D968 /* AddCard2ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FA13B5E718049F4700858DA5 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9AADA181C8457003159E6 /* RNGridMenu.h */,
+				FAD9AADB181C8457003159E6 /* RNGridMenu.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		FA2EA921182AA5D800FF55B0 /* Card Detail & Wide Request  PNG */ = {
+			isa = PBXGroup;
+			children = (
+				FA2EA922182AA5D800FF55B0 /* Card-Detail-Back.png */,
+				FA2EA923182AA5D800FF55B0 /* Close-Button.png */,
+				FA2EA924182AA5D800FF55B0 /* Radio-Button.png */,
+				FA2EA925182AA5D800FF55B0 /* Text-Field-120.png */,
+				FA2EA926182AA5D800FF55B0 /* Text-Field-45.png */,
+				FA2EA927182AA5D800FF55B0 /* Text-Field-60.png */,
+				FA2EA928182AA5D800FF55B0 /* Text-Field-85.png */,
+				FA2EA929182AA5D800FF55B0 /* Wide-Request-Page.png */,
+			);
+			path = "Card Detail & Wide Request  PNG";
+			sourceTree = "<group>";
+		};
+		FA44C0CC182E33AC00E88285 /* KeyPadLock */ = {
+			isa = PBXGroup;
+			children = (
+				FA35CC29187EB6A600F9A5CA /* KKKeychain.h */,
+				FA35CC2A187EB6A600F9A5CA /* KKKeychain.m */,
+				FA35CC2B187EB6A600F9A5CA /* KKPasscodeLock.bundle */,
+				FA35CC2C187EB6A600F9A5CA /* KKPasscodeLock.h */,
+				FA35CC2D187EB6A600F9A5CA /* KKPasscodeLock.m */,
+				FA35CC2E187EB6A600F9A5CA /* KKPasscodeSettingsViewController.h */,
+				FA35CC2F187EB6A600F9A5CA /* KKPasscodeSettingsViewController.m */,
+				FA35CC30187EB6A600F9A5CA /* KKPasscodeViewController.h */,
+				FA35CC31187EB6A600F9A5CA /* KKPasscodeViewController.m */,
+			);
+			name = KeyPadLock;
+			sourceTree = "<group>";
+		};
+		FAE0B0B3181DCC030079D677 /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				FA503FBF185B66FD00DCBC22 /* Wide-Request-Page.png */,
+				FA33793A1887E6C5005533C7 /* Wide-Request-Page1.png */,
+				FA33794A18880ABD005533C7 /* Wide-Request-Page1Transparent.png */,
+				FA33794C18880AC8005533C7 /* Wide-Request-Page2Transparent.png */,
+				FA33795018881007005533C7 /* Wide-Request-Page1Trancparency9.png */,
+				FAF6A9491858948200EA9998 /* Card-Detail-Back5.png */,
+				F40866D7197A4268005AE142 /* Next.png */,
+				FA0C9A961829934300E6863E /* Prev.png */,
+				FA0C9A981829934A00E6863E /* Done.png */,
+				FAE94B061824689100AE297C /* AXCard.jpeg */,
+				FAE94B081824691700AE297C /* VisaCard.jpeg */,
+				FA85F760182554BC0003C29D /* MasterCard.jpeg */,
+				FAF163BD18395D6F002E0058 /* American-Express4.png */,
+				FAF163BF18395DC4002E0058 /* Visa4.png */,
+				FAF163C118395DF9002E0058 /* MasterCard33.png */,
+				FA85F762182554CE0003C29D /* JCBCard.jpeg */,
+				FA53EC1418304604001AC1BB /* Home5.png */,
+				FAE0B0BD181DCC030079D677 /* Button2.png */,
+				FA4388E1183FC12F00FB40C5 /* Button300.png */,
+				FAE94B02182459C700AE297C /* RadioButton-Selected.png */,
+				FAE94B03182459C700AE297C /* RadioButton-Unselected.png */,
+				FA003C68182723DC008BAD48 /* Cancel.png */,
+				FA003C6A182724AB008BAD48 /* Change1.png */,
+				FA003C641827238B008BAD48 /* Change2.png */,
+				FA003C6C182724E4008BAD48 /* Cards.png */,
+				FA003C66182723B4008BAD48 /* Add.png */,
+				FA5935851842767700AD84AD /* DeleteCard.png */,
+				FA85F76A1825A73F0003C29D /* Continue1.png */,
+				FA85F76818258A870003C29D /* Continue2.png */,
+				FA003C6218272368008BAD48 /* Continue3.png */,
+				FA003C5E1827232B008BAD48 /* Pay-Now1.png */,
+				FA003C6018272349008BAD48 /* Pay-Now2.png */,
+				FA85F7721825F4890003C29D /* Pay-Now4.png */,
+				FA2EA921182AA5D800FF55B0 /* Card Detail & Wide Request  PNG */,
+			);
+			path = PNG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D5586D171A247F00F1FC17 /* FoxDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D558B2171A248000F1FC17 /* Build configuration list for PBXNativeTarget "FoxDoor" */;
+			buildPhases = (
+				A9F8DEF2C9324E45B03EA61B /* Check Pods Manifest.lock */,
+				78D5586A171A247F00F1FC17 /* Sources */,
+				78D5586B171A247F00F1FC17 /* Frameworks */,
+				78D5586C171A247F00F1FC17 /* Resources */,
+				D4165D44968746F0907A1B49 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoxDoor;
+			productName = AirCash;
+			productReference = 78D5586E171A247F00F1FC17 /* FoxDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78D5589E171A247F00F1FC17 /* FoxDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D558B5171A248000F1FC17 /* Build configuration list for PBXNativeTarget "FoxDoorTests" */;
+			buildPhases = (
+				78D5589A171A247F00F1FC17 /* Sources */,
+				78D5589B171A247F00F1FC17 /* Frameworks */,
+				78D5589C171A247F00F1FC17 /* Resources */,
+				78D5589D171A247F00F1FC17 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D558A6171A247F00F1FC17 /* PBXTargetDependency */,
+			);
+			name = FoxDoorTests;
+			productName = AirCashTests;
+			productReference = 78D5589F171A247F00F1FC17 /* FoxDoorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D55866171A247F00F1FC17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Younes Nouri Soltan";
+				TargetAttributes = {
+					78D5586D171A247F00F1FC17 = {
+						DevelopmentTeam = XX3UJZ7373;
+					};
+				};
+			};
+			buildConfigurationList = 78D55869171A247F00F1FC17 /* Build configuration list for PBXProject "FoxDoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78D55865171A247F00F1FC17;
+			productRefGroup = 78D5586F171A247F00F1FC17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D5586D171A247F00F1FC17 /* FoxDoor */,
+				78D5589E171A247F00F1FC17 /* FoxDoorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D5586C171A247F00F1FC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB58A218C0AFFE00E85D5D /* plan_shopping@2x.png in Resources */,
+				78D5587E171A247F00F1FC17 /* InfoPlist.strings in Resources */,
+				F400E2F91928F4B8001FB992 /* Images.xcassets in Resources */,
+				FA85F76B1825A73F0003C29D /* Continue1.png in Resources */,
+				FACB589A18C0AFFE00E85D5D /* balloon@2x.png in Resources */,
+				FA2EA92B182AA5D800FF55B0 /* Close-Button.png in Resources */,
+				FA003C651827238B008BAD48 /* Change2.png in Resources */,
+				FA85F761182554BC0003C29D /* MasterCard.jpeg in Resources */,
+				FA85F76918258A870003C29D /* Continue2.png in Resources */,
+				FACB589D18C0AFFE00E85D5D /* ok@2x.png in Resources */,
+				78D55890171A247F00F1FC17 /* MainStoryboard_iPad.storyboard in Resources */,
+				FACB589B18C0AFFE00E85D5D /* choseBtn@2x.png in Resources */,
+				FACB589F18C0AFFE00E85D5D /* plan_nature@2x.png in Resources */,
+				FACB589E18C0AFFE00E85D5D /* plan_eat@2x.png in Resources */,
+				FA003C5F1827232B008BAD48 /* Pay-Now1.png in Resources */,
+				FAF163C018395DC4002E0058 /* Visa4.png in Resources */,
+				78D558C7171A2B0100F1FC17 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FA35CC28187EB68D00F9A5CA /* SettingsViewController.xib in Resources */,
+				FAF6A94A1858948200EA9998 /* Card-Detail-Back5.png in Resources */,
+				FA33794D18880AC8005533C7 /* Wide-Request-Page2Transparent.png in Resources */,
+				FA33794B18880ABD005533C7 /* Wide-Request-Page1Transparent.png in Resources */,
+				FACB58A018C0AFFE00E85D5D /* plan_plane@2x.png in Resources */,
+				FACB58A718C0AFFE00E85D5D /* ss.png in Resources */,
+				F40866D8197A4268005AE142 /* Next.png in Resources */,
+				FAF163C218395DF9002E0058 /* MasterCard33.png in Resources */,
+				FA788AB818C12E4100D201F7 /* apple.png in Resources */,
+				FACB589C18C0AFFE00E85D5D /* full.png in Resources */,
+				FAE0B0CB181DCC030079D677 /* Button2.png in Resources */,
+				FA53EC1518304604001AC1BB /* Home5.png in Resources */,
+				FA5935861842767700AD84AD /* DeleteCard.png in Resources */,
+				FA003C6318272368008BAD48 /* Continue3.png in Resources */,
+				FACB58A118C0AFFE00E85D5D /* plan_rest@2x.png in Resources */,
+				FAE94B091824691700AE297C /* VisaCard.jpeg in Resources */,
+				FA2EA92A182AA5D800FF55B0 /* Card-Detail-Back.png in Resources */,
+				FA503FC0185B66FD00DCBC22 /* Wide-Request-Page.png in Resources */,
+				FACB58A618C0AFFE00E85D5D /* plan_walk@2x.png in Resources */,
+				FA503FBC185B1F4200DCBC22 /* Icon.png in Resources */,
+				FA503FBE185B1FF100DCBC22 /* Icon@2x.png in Resources */,
+				FA33793B1887E6C5005533C7 /* Wide-Request-Page1.png in Resources */,
+				FAF163BE18395D6F002E0058 /* American-Express4.png in Resources */,
+				FA003C69182723DC008BAD48 /* Cancel.png in Resources */,
+				F4C1ADAB198242E90065FBCB /* html.html in Resources */,
+				FA2EA930182AA5D800FF55B0 /* Text-Field-85.png in Resources */,
+				FA003C6118272349008BAD48 /* Pay-Now2.png in Resources */,
+				FA35CC33187EB6A600F9A5CA /* KKPasscodeLock.bundle in Resources */,
+				FA85F7731825F4890003C29D /* Pay-Now4.png in Resources */,
+				FA33795118881007005533C7 /* Wide-Request-Page1Trancparency9.png in Resources */,
+				FA97B0501868530D003F3D47 /* Default.png in Resources */,
+				FAE94B04182459C700AE297C /* RadioButton-Selected.png in Resources */,
+				FAE94B05182459C700AE297C /* RadioButton-Unselected.png in Resources */,
+				FA2EA92E182AA5D800FF55B0 /* Text-Field-45.png in Resources */,
+				FA4388E2183FC12F00FB40C5 /* Button300.png in Resources */,
+				FA003C6B182724AB008BAD48 /* Change1.png in Resources */,
+				FA85F763182554CE0003C29D /* JCBCard.jpeg in Resources */,
+				FAF163B618393C95002E0058 /* Default-568h@2x.png in Resources */,
+				FACB58A318C0AFFE00E85D5D /* plan_sports@2x.png in Resources */,
+				FA2EA92F182AA5D800FF55B0 /* Text-Field-60.png in Resources */,
+				FA0C9A971829934300E6863E /* Prev.png in Resources */,
+				FA003C6D182724E4008BAD48 /* Cards.png in Resources */,
+				FA003C67182723B4008BAD48 /* Add.png in Resources */,
+				FA4388D6183FA67A00FB40C5 /* Icon4.png in Resources */,
+				FA5935371842679200AD84AD /* Default@2x.png in Resources */,
+				FA2EA92D182AA5D800FF55B0 /* Text-Field-120.png in Resources */,
+				FA2EA92C182AA5D800FF55B0 /* Radio-Button.png in Resources */,
+				FACB58A518C0AFFE00E85D5D /* plan_train@2x.png in Resources */,
+				FA0C9A991829934A00E6863E /* Done.png in Resources */,
+				FA788AB918C12E4100D201F7 /* apple2.png in Resources */,
+				FA2EA931182AA5D800FF55B0 /* Wide-Request-Page.png in Resources */,
+				FACB58A418C0AFFE00E85D5D /* plan_structure@2x.png in Resources */,
+				FAE94B071824689100AE297C /* AXCard.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D5589C171A247F00F1FC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D558AC171A247F00F1FC17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78D5589D171A247F00F1FC17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		A9F8DEF2C9324E45B03EA61B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4165D44968746F0907A1B49 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D5586A171A247F00F1FC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D55880171A247F00F1FC17 /* main.m in Sources */,
+				78D55884171A247F00F1FC17 /* AppDelegate.m in Sources */,
+				78D55893171A247F00F1FC17 /* AirCash.xcdatamodeld in Sources */,
+				F4C04E711971D16D0087644A /* SignUp4ViewController.m in Sources */,
+				F4061E95197AB43A004508AE /* Validations.m in Sources */,
+				78D55896171A247F00F1FC17 /* MasterViewController.m in Sources */,
+				FACB588B18C0AFA800E85D5D /* SGSelectViewController.m in Sources */,
+				F4C04E741971D2730087644A /* SignUpManager.m in Sources */,
+				FA829A0D1865250E009F72CE /* Constants.m in Sources */,
+				F4F47E50196F10A900910396 /* SuperViewController.m in Sources */,
+				78D55899171A247F00F1FC17 /* PaymentDetailViewController.m in Sources */,
+				FA1D6DD41875892000DE00D2 /* LogInViewController.m in Sources */,
+				F4D57AA1195466AC00F66540 /* AddCardViewController.m in Sources */,
+				FA1772931800DBE2006F35B8 /* NSData+Base64.m in Sources */,
+				F4CF15EA19823C3900BA86D4 /* CardRegisteration.m in Sources */,
+				FAD9AADC181C8457003159E6 /* RNGridMenu.m in Sources */,
+				FA35CC32187EB6A600F9A5CA /* KKKeychain.m in Sources */,
+				78D558BD171A26B700F1FC17 /* CardManageViewController.m in Sources */,
+				78D558C5171A274900F1FC17 /* Payment.m in Sources */,
+				FA788AB518C12E3000D201F7 /* NIDropDown.m in Sources */,
+				FA35CC27187EB68D00F9A5CA /* SettingsViewController.m in Sources */,
+				F4C04E6B1971D1460087644A /* SignUp2ViewController.m in Sources */,
+				FAA89F7D1820009900B0C85A /* CardsViewController.m in Sources */,
+				F465CB051987D9BA00B6D968 /* AddCard2ViewController.m in Sources */,
+				FA17728E1800C123006F35B8 /* KeychainItemWrapper.m in Sources */,
+				FA1C382417FDFB160069B860 /* User.m in Sources */,
+				78D558D0171A35E500F1FC17 /* Card.m in Sources */,
+				F4C04E6E1971D1560087644A /* SignUp3ViewController.m in Sources */,
+				F4C04E611971A4C20087644A /* LoginManager.m in Sources */,
+				FA35CC35187EB6A600F9A5CA /* KKPasscodeSettingsViewController.m in Sources */,
+				F4750DF319920B3400118C04 /* SignUp5ViewController.m in Sources */,
+				F4CBFE14196DAFC900431BC8 /* RootViewController.m in Sources */,
+				F4C04E681971D12E0087644A /* SignUp1ViewController.m in Sources */,
+				F4C04E651971D1120087644A /* SignUpMasterViewController.m in Sources */,
+				FADC1770181B1D2F00A24E47 /* Reachability.m in Sources */,
+				FA35CC34187EB6A600F9A5CA /* KKPasscodeLock.m in Sources */,
+				FA19AF63187B45CD00D5D24A /* KxMenu.m in Sources */,
+				FAE94B01182459BB00AE297C /* RadioButton.m in Sources */,
+				78D558D3171A363900F1FC17 /* CardDetailsViewController.m in Sources */,
+				FA1C382017FDF9D00069B860 /* SignUpViewController.m in Sources */,
+				FA35CC36187EB6A600F9A5CA /* KKPasscodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D5589A171A247F00F1FC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D558AF171A248000F1FC17 /* AirCashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78D558A6171A247F00F1FC17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D5586D171A247F00F1FC17 /* FoxDoor */;
+			targetProxy = 78D558A5171A247F00F1FC17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D5587C171A247F00F1FC17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D5587D171A247F00F1FC17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78D5588E171A247F00F1FC17 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D5588F171A247F00F1FC17 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		78D558AA171A247F00F1FC17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D558AB171A247F00F1FC17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D558B0171A248000F1FC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78D558B1171A248000F1FC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Younes Nourisoltan (XX3UJZ7373)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Younes Nourisoltan (XX3UJZ7373)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0F9E0973-2497-4AFA-90C7-A05958DD88DF";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D558B3171A248000F1FC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7EC9B367BB404DA15D5237 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirCash/FoxDoor-Prefix.pch";
+				INFOPLIST_FILE = "AirCash/FoxDoor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = FoxDoor;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78D558B4171A248000F1FC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7EC9B367BB404DA15D5237 /* Pods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirCash/FoxDoor-Prefix.pch";
+				INFOPLIST_FILE = "AirCash/FoxDoor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = FoxDoor;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78D558B6171A248000F1FC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirCash.app/AirCash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirCash/AirCash-Prefix.pch";
+				INFOPLIST_FILE = "AirCashTests/FoxDoorTests-Info.plist";
+				PRODUCT_NAME = FoxDoorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78D558B7171A248000F1FC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirCash.app/AirCash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirCash/AirCash-Prefix.pch";
+				INFOPLIST_FILE = "AirCashTests/FoxDoorTests-Info.plist";
+				PRODUCT_NAME = FoxDoorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D55869171A247F00F1FC17 /* Build configuration list for PBXProject "FoxDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D558B0171A248000F1FC17 /* Debug */,
+				78D558B1171A248000F1FC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78D558B2171A248000F1FC17 /* Build configuration list for PBXNativeTarget "FoxDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D558B3171A248000F1FC17 /* Debug */,
+				78D558B4171A248000F1FC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78D558B5171A248000F1FC17 /* Build configuration list for PBXNativeTarget "FoxDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D558B6171A248000F1FC17 /* Debug */,
+				78D558B7171A248000F1FC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78D55891171A247F00F1FC17 /* AirCash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78D55892171A247F00F1FC17 /* AirCash.xcdatamodel */,
+			);
+			currentVersion = 78D55892171A247F00F1FC17 /* AirCash.xcdatamodel */;
+			path = AirCash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78D55866171A247F00F1FC17 /* Project object */;
+}

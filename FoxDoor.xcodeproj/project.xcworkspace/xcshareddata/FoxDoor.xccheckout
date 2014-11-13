@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>865749FE-798C-4FAF-96F8-2E10100747D7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FoxDoor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>20326819-E0CA-48A6-81CB-05376F92DB9E</key>
+		<string>ssh://bitbucket.org/Jaaroo/foxdoor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FoxDoor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>20326819-E0CA-48A6-81CB-05376F92DB9E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/Jaaroo/foxdoor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>20326819-E0CA-48A6-81CB-05376F92DB9E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>20326819-E0CA-48A6-81CB-05376F92DB9E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>foxdoor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
